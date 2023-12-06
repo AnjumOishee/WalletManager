@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wallet project</title>
+    <link rel="stylesheet" href="./Login.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body class="max-w-7xl mx-auto">
+    <!--navbar-->
+    <h1 class="px-8 py-5 text-xl">SMART WALLET</h1>
+
+    <!--log in-->
+    <div class="bg-image bg-cover" style="background-image: url('image/bg_image.jpg')">
+        <div class=" flex justify-center gap-10 py-32">
+            <div>
+                <div class="flex justify-center py-2 bg-slate-100 mb-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                        <path
+                            d="M2.273 5.625A4.483 4.483 0 015.25 4.5h13.5c1.141 0 2.183.425 2.977 1.125A3 3 0 0018.75 3H5.25a3 3 0 00-2.977 2.625zM2.273 8.625A4.483 4.483 0 015.25 7.5h13.5c1.141 0 2.183.425 2.977 1.125A3 3 0 0018.75 6H5.25a3 3 0 00-2.977 2.625zM5.25 9a3 3 0 00-3 3v6a3 3 0 003 3h13.5a3 3 0 003-3v-6a3 3 0 00-3-3H15a.75.75 0 00-.75.75 2.25 2.25 0 01-4.5 0A.75.75 0 009 9H5.25z" />
+                    </svg>
+                    <h1 class="font-bold">Wallet Manager</h1>
+                </div>
+                <img class="h-20 w-20 rounded-full mx-48" src="./image/wallet.jpg" />
+                <p class="text-center py-3">The Web Application is developed by Anjum Oishee. Anjum Oishee is a<br>
+                    FullStack Developer(MERN).Hire her to grow your technology faster</p>
+                <div class="flex justify-center gap-2">
+                    <button><i class='text-3xl bx bxl-facebook-square'></i> </button>
+                    <button><i class='text-3xl bx bxl-github' ></i></button>
+                    <button><i class='text-3xl bx bxl-telegram' ></i></button>
+                </div>
+            </div>
+            <div class="bg-white bg-opacity-50 px-6 py-4">
+                <h1 class="font-bold">User Login</h1>
+                <p class="mt-8">Email Adress:
+                <div class="py-2">
+                    <input id="email" class="py-2 pl-2 pr-48 rounded-lg" placeholder="Enter your email" required />
+                </div>
+                </p>
+                <p class="mt-4">Password:
+                <div class="py-2">
+                    <input id="password" class="py-2 pl-2 pr-48 rounded-lg" placeholder="Enter Password" required />
+                </div>
+                </p>
+                <button onclick="signin()"class="mt-3 px-3 py-2 rounded-lg bg-sky-700 hover:bg-sky-800">
+                    <span class=" text-white">login now</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!--footer-->
+    <footer class="mt-10 px-16">
+        <div class="flex justify-between mb-5 font-bold">
+            <div class="flex justify-around gap-7">
+                <p>ABOUT</p>
+                <p>HOW IT WORKS</p>
+                <p>CONTACT</p>
+            </div>
+            <div>
+                <h1 class="font-bold">SMART WALLET</h1>
+            </div>
+            <div class="flex justify-around gap-7">
+                <p>Sign up</p>
+                <p>log in</p>
+                <div class="flex justify-around gap-3">
+                    <img class="h-5 w-5" src="./image/fb-2.svg" />
+                    <img class="h-5 w-5" src="./image/insta.png" />
+                    <img class="h-5 w-5" src="./image/youtube.png">
+                </div>
+            </div>
+        </div>
+        <hr class="border-black">
+        <div class="my-5 flex justify-between">
+            <p>Copyright © 2020.Anjum Oishee creative</p>
+            <p>Designed by Anjum Oishee</p>
+        </div>
+    </footer>
+    <script src="./login.js"></script>
+</body>
+</body>
+
+</html>
